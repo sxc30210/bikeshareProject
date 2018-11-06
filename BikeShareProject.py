@@ -70,7 +70,7 @@ def get_filters():
             #creating list of days
             days = ['all','sunday','monday','tuesday','wednesday','thursday','friday','saturday']
             #getting user input using input built-in function
-            day = input("name of the day of week to filter by, or all to apply no day filter\n")
+            day = input("name of the day of week to filter by, or all to apply no day filter GITHUB\n")
             #converting user entry to lowercase by lower function()
             day = day.lower()
             #using if statement for checking condtion and using break to break if the condtion is true
