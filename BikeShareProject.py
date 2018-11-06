@@ -35,7 +35,7 @@ def get_filters():
         #using while loop unitll gets the proper city name
         while city != 'chicago' or city != 'new york city' or city != 'washington':
             #using input built-in function to get user input
-            city = input("Please enter name of the city to analyze\n")
+            city = input("Please enter name of the city to analyze GITHUB\n")
             #using lower function to make the convert the user entry to lowercase
             city = city.lower()
             #using if
