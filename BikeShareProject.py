@@ -53,7 +53,7 @@ def get_filters():
             #creating list of months
             months = ['all','january', 'february', 'march', 'april', 'may', 'june']
             #using input to get the prompt user to enter the month
-            month = input ("name of the month to filter by, or all to apply no month filter GITHUB\n")
+            month = input ("name of the month to filter by, or all to apply no month filter GITHUB!\n")
             #converting the user entry to lower case by using lower() function
             month = month.lower()
             #using if and break the condition if the user entered the correct month from the list
