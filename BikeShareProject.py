@@ -36,7 +36,7 @@ def get_filters():
         #using while loop unitll gets the proper city name
         while city != 'chicago' or city != 'new york city' or city != 'washington':
             #using input built-in function to get user input
-            city = input("Please enter name of the city to analyze GITHUB\n")
+            city = input("Please enter name of the city to analyze GITHUB!\n")
             #using lower function to make the convert the user entry to lowercase
             city = city.lower()
             #using if
@@ -54,7 +54,7 @@ def get_filters():
             #creating list of months
             months = ['all','january', 'february', 'march', 'april', 'may', 'june']
             #using input to get the prompt user to enter the month
-            month = input ("name of the month to filter by, or all to apply no month filter GITHUB\n")
+            month = input ("name of the month to filter by, or all to apply no month filter GITHUB!\n")
             #converting the user entry to lower case by using lower() function
             month = month.lower()
             #using if and break the condition if the user entered the correct month from the list
@@ -71,7 +71,7 @@ def get_filters():
             #creating list of days
             days = ['all','sunday','monday','tuesday','wednesday','thursday','friday','saturday']
             #getting user input using input built-in function
-            day = input("name of the day of week to filter by, or all to apply no day filter GITHUB\n")
+            day = input("name of the day of week to filter by, or all to apply no day filter GITHUB!\n")
             #converting user entry to lowercase by lower function()
             day = day.lower()
             #using if statement for checking condtion and using break to break if the condtion is true
