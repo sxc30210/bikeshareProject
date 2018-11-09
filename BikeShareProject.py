@@ -29,7 +29,7 @@ def get_filters():
     #try except to hanlde error, try wil run first
     try:
         #suing print function to print the message
-        print('Hello! Let\'s explore some US bikeshare data GITHUB!')
+        print('Hello! Let\'s explore some US bikeshare data GITHUB!!!!')
 
         #writing global before city to handle error due to variable scope
         global city
